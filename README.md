@@ -22,6 +22,14 @@ cd toutatis/
 python3 setup.py install
 ```
 
+If Errors occur:
+
+```bash
+pip install urllib3==1.26.15
+pip install six
+```
+
+
 ## 📚 Usage:
 
 ### Find information from a username
