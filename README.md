@@ -1,11 +1,5 @@
-# Toutatis
-👋 Hi there! For any professional inquiries or collaborations, please reach out to me at:
-megadose@protonmail.com
+Credits: https://github.com/megadose/toutatis
 
-📧 Preferably, use your professional email for correspondence. Let's keep it short and sweet, and all in English!
-
-Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and more </br>
-For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
 ## 💡 Prerequisite
 [Python 3](https://www.python.org/downloads/release/python-370/)
 
@@ -22,7 +16,8 @@ cd toutatis/
 python3 setup.py install
 ```
 
-If Errors occur:
+
+### If Errors occur:
 
 ```bash
 pip install urllib3==1.26.15
@@ -66,9 +61,14 @@ Profile Picture        : https://scontent-X-X.cdninstagram.com/
 ```
 
 ## 📚 To retrieve the sessionID
+1. Open Instagram, right click and select 'Inspect'
+2. Open the Tab 'Application'
+3. Click 'Cookies' in the left column and select 'https://www.instagram.com'
+4. Copy the Value of 'sessionid'
 ![](https://files.catbox.moe/1rfi6j.png)
 
 ## Thank you to :
 
+- [megadose](https://github.com/megadose)
 - [EyupErgin](https://github.com/eyupergin)
 - [yazeed44](https://github.com/yazeed44)
